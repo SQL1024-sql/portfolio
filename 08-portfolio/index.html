@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuki Chen | 設計師作品集</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"PingFang TC","Microsoft JhengHei",sans-serif;background:#faf9fc;color:#1a1423;line-height:1.7;}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:24px 7%;}
+  nav .logo{font-weight:800;font-size:1.3rem;}
+  nav a{text-decoration:none;color:#1a1423;margin-left:26px;font-size:.95rem;}
+  nav a:hover{color:#7028e4;}
+  .hero{padding:80px 7% 70px;display:grid;grid-template-columns:1.4fr 1fr;align-items:center;gap:40px;}
+  .hero small{color:#7028e4;letter-spacing:3px;font-weight:600;}
+  .hero h1{font-size:3.6rem;line-height:1.2;margin:14px 0 20px;}
+  .hero h1 em{font-style:normal;background:linear-gradient(120deg,#7028e4,#e5b2ca);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .hero p{font-size:1.15rem;color:#5a5266;max-width:440px;}
+  .avatar{width:240px;height:240px;border-radius:50%;margin-left:auto;background:linear-gradient(135deg,#7028e4,#e5b2ca);display:flex;align-items:center;justify-content:center;font-size:6rem;}
+  .btn{display:inline-block;margin-top:28px;background:#1a1423;color:#fff;padding:14px 34px;border-radius:30px;text-decoration:none;}
+  section{padding:70px 7%;}
+  h2.title{font-size:2.2rem;margin-bottom:40px;}
+  .works{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;}
+  .work{border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 8px 26px rgba(112,40,228,.08);transition:.3s;}
+  .work:hover{transform:translateY(-6px);}
+  .work .top{height:150px;display:flex;align-items:center;justify-content:center;font-size:2.4rem;color:#fff;}
+  .work .info{padding:18px;}
+  .work .info small{color:#7028e4;font-size:.8rem;}
+  .work h3{margin:4px 0;font-size:1.1rem;}
+  .skills{display:flex;flex-wrap:wrap;gap:12px;}
+  .skills span{background:#fff;border:1px solid #ece7f5;padding:10px 22px;border-radius:30px;font-size:.95rem;}
+  footer{background:#1a1423;color:#cfc7da;text-align:center;padding:50px;}
+  footer h2{color:#fff;margin-bottom:14px;}
+  @media(max-width:760px){.hero{grid-template-columns:1fr;}.avatar{margin:0 auto;}.works{grid-template-columns:1fr;}.hero h1{font-size:2.4rem;}}
+</style>
+</head>
+<body>
+<nav><div class="logo">Yuki.</div><div><a href="#works">作品</a><a href="#skills">技能</a><a href="#contact">聯絡</a></div></nav>
+<div class="hero">
+  <div>
+    <small>UI / UX DESIGNER · FREELANCER</small>
+    <h1>嗨，我是 Yuki，<br>專注於 <em>數位產品設計</em></h1>
+    <p>五年介面設計經驗，擅長將複雜需求轉化為簡潔好用的數位體驗。曾與新創、電商、品牌團隊合作。</p>
+    <a href="#contact" class="btn">與我合作 →</a>
+  </div>
+  <div class="avatar">👩‍💻</div>
+</div>
+<section id="works">
+  <h2 class="title">精選作品</h2>
+  <div class="works">
+    <div class="work"><div class="top" style="background:linear-gradient(135deg,#7028e4,#e5b2ca)">📱</div><div class="info"><small>APP DESIGN</small><h3>理財 App 重新設計</h3><p style="color:#5a5266;font-size:.9rem;">提升留存率 32%</p></div></div>
+    <div class="work"><div class="top" style="background:linear-gradient(135deg,#11998e,#38ef7d)">🛒</div><div class="info"><small>E-COMMERCE</small><h3>選物電商網站</h3><p style="color:#5a5266;font-size:.9rem;">轉換率優化專案</p></div></div>
+    <div class="work"><div class="top" style="background:linear-gradient(135deg,#fc466b,#3f5efb)">🎨</div><div class="info"><small>BRANDING</small><h3>咖啡品牌識別</h3><p style="color:#5a5266;font-size:.9rem;">Logo 與包裝設計</p></div></div>
+  </div>
+</section>
+<section id="skills" style="background:#f3eefb;">
+  <h2 class="title">專長技能</h2>
+  <div class="skills"><span>Figma</span><span>UI 設計</span><span>使用者研究</span><span>原型製作</span><span>RWD 網頁設計</span><span>品牌識別</span><span>HTML / CSS</span></div>
+</section>
+<footer id="contact">
+  <h2>讓我們聊聊你的專案</h2>
+  <p>yuki.design@example.com · @yuki.designs</p>
+  <p style="margin-top:14px;opacity:.5;">本頁為作品集範例</p>
+</footer>
+</body>
+</html>

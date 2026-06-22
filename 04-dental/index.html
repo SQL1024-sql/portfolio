@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>微笑牙醫診所 | Smile Dental</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"PingFang TC","Microsoft JhengHei",sans-serif;color:#243b53;background:#fff;line-height:1.7;}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:18px 6%;border-bottom:1px solid #e3f0f8;position:sticky;top:0;background:#fff;z-index:10;}
+  nav .logo{font-weight:800;font-size:1.4rem;color:#1ab5c4;}
+  nav .logo span{color:#3498db;}
+  nav .book{background:#1ab5c4;color:#fff;padding:10px 22px;border-radius:30px;text-decoration:none;font-size:.9rem;}
+  .hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:40px;padding:70px 6%;background:linear-gradient(180deg,#f0fbff,#fff);}
+  .hero h1{font-size:3rem;line-height:1.3;margin-bottom:18px;}
+  .hero h1 span{color:#1ab5c4;}
+  .hero p{font-size:1.1rem;color:#5b7184;margin-bottom:28px;}
+  .btn{display:inline-block;background:#1ab5c4;color:#fff;padding:15px 38px;border-radius:30px;text-decoration:none;box-shadow:0 8px 20px rgba(26,181,196,.3);}
+  .hero .visual{font-size:11rem;text-align:center;}
+  .services{padding:90px 6%;text-align:center;}
+  .services h2{font-size:2.3rem;margin-bottom:50px;}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;max-width:1050px;margin:0 auto;}
+  .svc{padding:34px 20px;border:1px solid #e3f0f8;border-radius:16px;transition:.3s;}
+  .svc:hover{box-shadow:0 12px 30px rgba(26,181,196,.12);transform:translateY(-5px);}
+  .svc .ico{font-size:2.6rem;margin-bottom:14px;}
+  .svc h3{font-size:1.1rem;margin-bottom:8px;}
+  .svc p{font-size:.9rem;color:#5b7184;}
+  .info{background:#243b53;color:#cfe3f0;padding:70px 6%;text-align:center;}
+  .info h2{color:#fff;font-size:2rem;margin-bottom:18px;}
+  .info p{font-size:1.1rem;line-height:2.2;}
+  footer{text-align:center;padding:36px;color:#8aa1b4;font-size:.9rem;}
+  @media(max-width:760px){.hero{grid-template-columns:1fr;}.hero .visual{display:none;}.grid{grid-template-columns:1fr 1fr;}.hero h1{font-size:2.2rem;}}
+</style>
+</head>
+<body>
+<nav><div class="logo">微笑<span>牙醫</span></div><a href="#contact" class="book">線上預約</a></nav>
+<div class="hero">
+  <div>
+    <h1>給你一個<br><span>自信的微笑</span></h1>
+    <p>以無痛、舒適為核心的看診體驗。從定期檢查到專業矯正，我們守護你全家人的口腔健康。</p>
+    <a href="#contact" class="btn">立即預約看診</a>
+  </div>
+  <div class="visual">🦷</div>
+</div>
+<section class="services">
+  <h2>診療項目</h2>
+  <div class="grid">
+    <div class="svc"><div class="ico">🪥</div><h3>一般牙科</h3><p>蛀牙治療、洗牙與定期檢查</p></div>
+    <div class="svc"><div class="ico">✨</div><h3>美白貼片</h3><p>陶瓷貼片，打造潔白牙齒</p></div>
+    <div class="svc"><div class="ico">🦷</div><h3>數位矯正</h3><p>隱形牙套，舒適不影響外觀</p></div>
+    <div class="svc"><div class="ico">🔧</div><h3>植牙重建</h3><p>專業團隊，恢復咀嚼功能</p></div>
+  </div>
+</section>
+<section id="contact" class="info">
+  <h2>看診時間與位置</h2>
+  <p>台北市松山區微笑街 25 號 1 樓<br>02-2766-1234<br>週一至週六 09:00–12:00 · 14:00–21:00（週日休診）</p>
+</section>
+<footer>© 2026 微笑牙醫診所 · 本頁為作品集範例</footer>
+</body>
+</html>

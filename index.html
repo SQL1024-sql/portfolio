@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>網站架設作品集 | Web Design Portfolio</title>
+<style>
+  :root{ --bg:#0d1117; --card:#161b22; --line:#21262d; --txt:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:"Segoe UI","PingFang TC","Microsoft JhengHei",sans-serif; background:var(--bg); color:var(--txt); line-height:1.6; }
+  header{ text-align:center; padding:80px 20px 50px; }
+  header h1{ font-size:2.6rem; letter-spacing:1px; }
+  header p{ color:var(--muted); margin-top:14px; font-size:1.1rem; }
+  .wrap{ max-width:1100px; margin:0 auto; padding:0 20px 80px; }
+  .grid{ display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:22px; }
+  .card{ background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden; transition:.25s; text-decoration:none; color:inherit; display:flex; flex-direction:column; }
+  .card:hover{ transform:translateY(-6px); border-color:var(--accent); box-shadow:0 12px 30px rgba(0,0,0,.4); }
+  .thumb{ height:150px; display:flex; align-items:center; justify-content:center; font-size:2.4rem; font-weight:700; color:#fff; }
+  .card-body{ padding:18px; }
+  .tag{ display:inline-block; font-size:.72rem; background:var(--line); color:var(--accent); padding:3px 10px; border-radius:20px; margin-bottom:10px; }
+  .card h3{ font-size:1.15rem; margin-bottom:6px; }
+  .card p{ color:var(--muted); font-size:.9rem; }
+  footer{ text-align:center; color:var(--muted); padding:40px; border-top:1px solid var(--line); font-size:.9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>網站架設作品集</h1>
+  <p>10 個橫跨不同產業的響應式網站範例 — 點擊任一卡片即可預覽</p>
+</header>
+<div class="wrap">
+  <div class="grid">
+    <a class="card" href="01-restaurant/index.html"><div class="thumb" style="background:linear-gradient(135deg,#c0392b,#e74c3c)">01</div><div class="card-body"><span class="tag">餐飲</span><h3>晚晴餐廳</h3><p>高級料理餐廳形象官網</p></div></a>
+    <a class="card" href="02-cafe/index.html"><div class="thumb" style="background:linear-gradient(135deg,#6f4e37,#b08968)">02</div><div class="card-body"><span class="tag">餐飲</span><h3>晨光咖啡</h3><p>一頁式咖啡廳品牌頁</p></div></a>
+    <a class="card" href="03-gym/index.html"><div class="thumb" style="background:linear-gradient(135deg,#f39c12,#16a085)">03</div><div class="card-body"><span class="tag">運動健身</span><h3>PULSE 健身房</h3><p>會員方案與課程介紹</p></div></a>
+    <a class="card" href="04-dental/index.html"><div class="thumb" style="background:linear-gradient(135deg,#1ab5c4,#3498db)">04</div><div class="card-body"><span class="tag">醫療</span><h3>微笑牙醫診所</h3><p>診所服務與線上預約引導</p></div></a>
+    <a class="card" href="05-law/index.html"><div class="thumb" style="background:linear-gradient(135deg,#34495e,#2c3e50)">05</div><div class="card-body"><span class="tag">專業服務</span><h3>正鼎法律事務所</h3><p>律師團隊與業務領域</p></div></a>
+    <a class="card" href="06-photography/index.html"><div class="thumb" style="background:linear-gradient(135deg,#16222a,#3a6073)">06</div><div class="card-body"><span class="tag">創意</span><h3>FRAME 攝影工作室</h3><p>作品展示型相簿網站</p></div></a>
+    <a class="card" href="07-realestate/index.html"><div class="thumb" style="background:linear-gradient(135deg,#283c86,#45a247)">07</div><div class="card-body"><span class="tag">不動產</span><h3>森林之丘建案</h3><p>預售屋建案銷售頁</p></div></a>
+    <a class="card" href="08-portfolio/index.html"><div class="thumb" style="background:linear-gradient(135deg,#7028e4,#e5b2ca)">08</div><div class="card-body"><span class="tag">個人品牌</span><h3>設計師個人作品集</h3><p>自由工作者形象網站</p></div></a>
+    <a class="card" href="09-ecommerce/index.html"><div class="thumb" style="background:linear-gradient(135deg,#11998e,#38ef7d)">09</div><div class="card-body"><span class="tag">電商 · 含JS</span><h3>耳機產品 Landing</h3><p>含購物車與數量計算互動</p></div></a>
+    <a class="card" href="10-course/index.html"><div class="thumb" style="background:linear-gradient(135deg,#fc466b,#3f5efb)">10</div><div class="card-body"><span class="tag">線上教育 · 含JS</span><h3>線上課程平台</h3><p>FAQ 手風琴與報名表單驗證</p></div></a>
+  </div>
+</div>
+<footer>網站架設服務作品集 · 響應式設計 · 可依需求客製 RWD / SEO / 後台</footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>晚晴餐廳 | Fine Dining</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"Georgia","PingFang TC","Microsoft JhengHei",serif;color:#2b2b2b;background:#faf7f2;}
+  a{text-decoration:none;color:inherit;}
+  nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:20px 6%;z-index:10;background:rgba(250,247,242,.9);backdrop-filter:blur(6px);}
+  nav .logo{font-size:1.5rem;letter-spacing:3px;font-weight:700;}
+  nav ul{display:flex;gap:32px;list-style:none;font-size:.95rem;}
+  nav a:hover{color:#c0392b;}
+  .hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:#fff;background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') center/cover;}
+  .hero h1{font-size:4rem;letter-spacing:6px;margin-bottom:18px;}
+  .hero p{font-size:1.2rem;letter-spacing:2px;max-width:500px;}
+  .btn{display:inline-block;margin-top:34px;padding:14px 40px;border:1px solid #fff;letter-spacing:3px;font-size:.9rem;transition:.3s;}
+  .btn:hover{background:#fff;color:#2b2b2b;}
+  section{padding:100px 6%;}
+  .section-title{text-align:center;font-size:2.4rem;letter-spacing:4px;margin-bottom:14px;}
+  .section-sub{text-align:center;color:#9a8c7a;letter-spacing:2px;margin-bottom:60px;}
+  .menu-grid{max-width:900px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:30px 60px;}
+  .dish{display:flex;justify-content:space-between;border-bottom:1px dashed #d8cdbb;padding-bottom:14px;}
+  .dish h4{font-size:1.2rem;}
+  .dish span{color:#9a8c7a;font-size:.85rem;}
+  .dish .price{color:#c0392b;font-weight:700;}
+  .about{background:#2b2b2b;color:#faf7f2;text-align:center;}
+  .about p{max-width:640px;margin:0 auto;font-size:1.15rem;line-height:2;color:#d8cdbb;}
+  footer{background:#1c1c1c;color:#9a8c7a;text-align:center;padding:50px;letter-spacing:1px;font-size:.9rem;}
+  @media(max-width:700px){nav ul{display:none;}.hero h1{font-size:2.6rem;}.menu-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">晚晴 · 晚晴</div>
+  <ul><li><a href="#menu">菜單</a></li><li><a href="#about">關於</a></li><li><a href="#contact">訂位</a></li></ul>
+</nav>
+<div class="hero">
+  <h1>晚晴餐廳</h1>
+  <p>以時令食材入饌，呈現一席關於季節的私語</p>
+  <a href="#contact" class="btn">立即訂位</a>
+</div>
+<section id="menu">
+  <h2 class="section-title">主廚菜單</h2>
+  <p class="section-sub">SEASONAL TASTING MENU</p>
+  <div class="menu-grid">
+    <div class="dish"><div><h4>炙烤北海道干貝</h4><span>佐柚子奶油醬</span></div><div class="price">NT$680</div></div>
+    <div class="dish"><div><h4>慢燉伊比利豬頰</h4><span>紅酒燉煮八小時</span></div><div class="price">NT$880</div></div>
+    <div class="dish"><div><h4>松露野菇燉飯</h4><span>義大利進口黑松露</span></div><div class="price">NT$720</div></div>
+    <div class="dish"><div><h4>香煎鴨胸</h4><span>佐莓果醬汁</span></div><div class="price">NT$780</div></div>
+    <div class="dish"><div><h4>海膽冷麵</h4><span>北海道馬糞海膽</span></div><div class="price">NT$920</div></div>
+    <div class="dish"><div><h4>焦糖布蕾</h4><span>香草籽手作</span></div><div class="price">NT$260</div></div>
+  </div>
+</section>
+<section id="about" class="about">
+  <h2 class="section-title">關於晚晴</h2>
+  <p class="section-sub" style="color:#7a6f5e">SINCE 2014</p>
+  <p>我們相信，最好的料理來自對食材的尊重。每一道菜餚都從產地開始思考，與在地小農合作，只在最對的時節端上桌。在晚晴，用餐不只是飽足，而是一段值得細細品味的時光。</p>
+</section>
+<section id="contact" style="text-align:center;">
+  <h2 class="section-title">訂位資訊</h2>
+  <p class="section-sub">RESERVATION</p>
+  <p style="font-size:1.1rem;line-height:2.2;">台北市大安區晴光路 88 號<br>02-2700-8888<br>每日 11:30–14:30 · 17:30–21:30</p>
+  <a href="tel:0227008888" class="btn" style="border-color:#2b2b2b;color:#2b2b2b;margin-top:30px;">電話訂位</a>
+</section>
+<footer>© 2026 晚晴餐廳 WAN-QING FINE DINING · 本頁為作品集範例</footer>
+</body>
+</html>

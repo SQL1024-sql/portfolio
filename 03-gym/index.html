@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PULSE 健身房 | 突破極限</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"PingFang TC","Microsoft JhengHei",sans-serif;background:#0e0e10;color:#f1f1f1;}
+  nav{display:flex;justify-content:space-between;align-items:center;padding:22px 6%;position:fixed;width:100%;z-index:10;background:rgba(14,14,16,.85);backdrop-filter:blur(8px);}
+  nav .logo{font-weight:900;font-size:1.5rem;color:#f39c12;letter-spacing:2px;}
+  nav a{color:#f1f1f1;text-decoration:none;margin-left:28px;font-size:.95rem;}
+  nav a:hover{color:#f39c12;}
+  .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:0 6%;background:linear-gradient(rgba(14,14,16,.6),rgba(14,14,16,.85)),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=80') center/cover;}
+  .hero h1{font-size:5rem;font-weight:900;line-height:1.05;max-width:700px;}
+  .hero h1 span{color:#f39c12;}
+  .hero p{margin:24px 0 34px;font-size:1.2rem;color:#bdbdbd;max-width:480px;}
+  .btn{display:inline-block;background:#f39c12;color:#0e0e10;font-weight:700;padding:16px 44px;border-radius:6px;text-decoration:none;letter-spacing:1px;transition:.3s;}
+  .btn:hover{background:#fff;}
+  section{padding:90px 6%;}
+  h2.title{font-size:2.6rem;font-weight:900;text-align:center;margin-bottom:50px;}
+  h2.title span{color:#f39c12;}
+  .plans{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;max-width:1050px;margin:0 auto;}
+  .plan{background:#17171b;border:1px solid #26262c;border-radius:14px;padding:40px 30px;text-align:center;transition:.3s;}
+  .plan.pop{border-color:#f39c12;transform:scale(1.05);}
+  .plan h3{font-size:1.3rem;margin-bottom:6px;}
+  .plan .price{font-size:2.8rem;font-weight:900;color:#f39c12;margin:10px 0;}
+  .plan .price small{font-size:1rem;color:#888;}
+  .plan ul{list-style:none;margin:24px 0;color:#bdbdbd;}
+  .plan li{padding:8px 0;border-bottom:1px solid #26262c;font-size:.95rem;}
+  .stats{display:flex;justify-content:center;gap:80px;flex-wrap:wrap;background:#17171b;}
+  .stat{text-align:center;}
+  .stat .num{font-size:3rem;font-weight:900;color:#f39c12;}
+  footer{text-align:center;padding:50px;color:#777;border-top:1px solid #26262c;}
+  @media(max-width:760px){.hero h1{font-size:2.8rem;}.plans{grid-template-columns:1fr;}.plan.pop{transform:none;}nav a{display:none;}}
+</style>
+</head>
+<body>
+<nav><div class="logo">PULSE</div><div><a href="#plans">方案</a><a href="#">課程</a><a href="#">教練</a></div></nav>
+<div class="hero">
+  <h1>突破<span>極限</span><br>成為更強的自己</h1>
+  <p>24 小時開放 · 專業教練一對一指導 · 全器械訓練空間，從今天開始改變。</p>
+  <a href="#plans" class="btn">免費體驗一日</a>
+</div>
+<section class="stats">
+  <div class="stat"><div class="num">3,200+</div><div>活躍會員</div></div>
+  <div class="stat"><div class="num">45</div><div>專業教練</div></div>
+  <div class="stat"><div class="num">24h</div><div>全天開放</div></div>
+</section>
+<section id="plans">
+  <h2 class="title">會員<span>方案</span></h2>
+  <div class="plans">
+    <div class="plan"><h3>月卡</h3><div class="price">$1,280<small>/月</small></div><ul><li>全器械使用</li><li>淋浴間 / 置物櫃</li><li>免綁約</li></ul><a href="#" class="btn" style="background:#26262c;color:#fff;">選擇方案</a></div>
+    <div class="plan pop"><h3>年卡 · 最熱門</h3><div class="price">$899<small>/月</small></div><ul><li>全器械使用</li><li>每月 2 堂團體課</li><li>體態評估報告</li></ul><a href="#" class="btn">選擇方案</a></div>
+    <div class="plan"><h3>私人教練</h3><div class="price">$2,400<small>/月</small></div><ul><li>含年卡所有權益</li><li>一對一課表規劃</li><li>飲食營養諮詢</li></ul><a href="#" class="btn" style="background:#26262c;color:#fff;">選擇方案</a></div>
+  </div>
+</section>
+<footer>PULSE FITNESS · 台北市信義區健身路 1 號 · 本頁為作品集範例</footer>
+</body>
+</html>
